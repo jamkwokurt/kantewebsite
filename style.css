@@ -1,0 +1,22 @@
+body {
+	background-color: grey;
+	font-family: sans-serif
+}
+p {
+	color: white;
+	background: linear-gradient(to right, rgba(0, 0, 255, 0.5), rgba(255, 255, 255, 0.5))
+}
+ol,ul {
+	border: 2mm solid blue;
+}
+ul {
+	border-color: white;
+	border-radius:2mm;
+	border-style:dashed;
+}
+#stat {
+	align: center;
+}
+tr:nth-of-type(2n+1){
+	background: white
+}
